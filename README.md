@@ -80,7 +80,7 @@ Interactively generates a personalized open-source philosophy statement:
 Prompts user for a tool, their idea of freedom, and a project to share
 Composes a manifesto and saves it to a text file
 
-**Concepts used: read input, string concatenation, writing to files, date command
+**Concepts used:** read input, string concatenation, writing to files, date command
 
 **Run:**
 ```bash
