@@ -36,14 +36,48 @@ Displays a welcome-style screen with system details:
 chmod +x script1.sh
 ./script1.sh
 
+###2. FOSS Package Inspector (script2.sh)
+
+Checks whether the chosen software (Git) is installed and prints version and license info. Includes a case statement to provide a brief description of the software philosophy.
+
+**Concepts used:** if-then-else, case statements, dpkg -l or rpm -q, grep
+
+**Run:**
+
 chmod +x script2.sh
 ./script2.sh
 
+###3. Disk and Permission Auditor (script3.sh)
+
+Audits important system directories:
+
+Checks permissions, ownership, and size of key directories
+Validates the existence and permissions of Git configuration directory
+
+**Concepts used:** for loops, ls -ld, du, awk
+
+**Run:**
+
 chmod +x script3.sh
 ./script3.sh
+###4. Log File Analyzer (script4.sh)
 
+Analyzes log files for a keyword (default: error) and counts its occurrences. Also prints the last 5 matching lines.
+
+**Concepts used:** while read loop, conditional statements, counters, command-line arguments
+
+**Run:**
 chmod +x script4.sh
 sudo ./script4.sh /var/log/syslog error
+###5. Open Source Manifesto Generator (script5.sh)
 
+Interactively generates a personalized open-source philosophy statement:
+
+Prompts user for a tool, their idea of freedom, and a project to share
+Composes a manifesto and saves it to a text file
+
+**Concepts used: read input, string concatenation, writing to files, date command
+
+**Run:**
 chmod +x script5.sh
 ./script5.sh
