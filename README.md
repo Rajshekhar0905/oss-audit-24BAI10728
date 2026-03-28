@@ -48,7 +48,7 @@ chmod +x script2.sh
 ./script2.sh
 ```
 
-### 3. Disk and Permission Auditor (script3.sh)###
+### 3. Disk and Permission Auditor (script3.sh)
 
 Audits important system directories:
 
@@ -62,7 +62,7 @@ Validates the existence and permissions of Git configuration directory
 chmod +x script3.sh
 ./script3.sh
 ```
-### 4. Log File Analyzer (script4.sh)###
+### 4. Log File Analyzer (script4.sh)
 
 Analyzes log files for a keyword (default: error) and counts its occurrences. Also prints the last 5 matching lines.
 
@@ -73,7 +73,7 @@ Analyzes log files for a keyword (default: error) and counts its occurrences. Al
 chmod +x script4.sh
 sudo ./script4.sh /var/log/syslog error
 ```
-### 5. Open Source Manifesto Generator (script5.sh)###
+### 5. Open Source Manifesto Generator (script5.sh)
 
 Interactively generates a personalized open-source philosophy statement:
 
