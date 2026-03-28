@@ -1,0 +1,7 @@
+Open Source Manifesto - 28 March 2026
+
+I believe in the power of open source software.
+Using tools like Firefox browser every day reminds me that technology grows stronger when it is shared.
+For me, freedom in technology means independent.
+In the future, I would like to build and freely share ML apps so that others can learn, improve, and innovate together.
+Open source encourages collaboration, transparency, and community-driven development.
