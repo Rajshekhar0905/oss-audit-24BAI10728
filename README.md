@@ -33,8 +33,7 @@ Displays a welcome-style screen with system details:
 
 **Run:**
 ```bash
-chmod +x script1.sh
-./script1.sh
+bash script1.sh
 ```
 ### 2. FOSS Package Inspector (script2.sh)
 
@@ -44,8 +43,7 @@ Checks whether the chosen software (Git) is installed and prints version and lic
 
 **Run:**
 ```bash
-chmod +x script2.sh
-./script2.sh
+bash script2.sh
 ```
 
 ### 3. Disk and Permission Auditor (script3.sh)
@@ -59,8 +57,7 @@ Validates the existence and permissions of Git configuration directory
 
 **Run:**
 ```bash
-chmod +x script3.sh
-./script3.sh
+bash script3.sh
 ```
 ### 4. Log File Analyzer (script4.sh)
 
@@ -70,8 +67,7 @@ Analyzes log files for a keyword (default: error) and counts its occurrences. Al
 
 **Run:**
 ```bash
-chmod +x script4.sh
-sudo ./script4.sh /var/log/syslog error
+sudo bash script4.sh /var/log/syslog error
 ```
 ### 5. Open Source Manifesto Generator (script5.sh)
 
@@ -84,6 +80,5 @@ Composes a manifesto and saves it to a text file
 
 **Run:**
 ```bash
-chmod +x script5.sh
-./script5.sh
+bash script5.sh
 ```
